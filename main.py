@@ -6,10 +6,10 @@ import getpass
 import dbproc
 import move
 
-
+prefix = {"n":"new", "a":"add/sad", "b":"black/white/sa"}
 def main():
-    print(move.prefix)
-    move.grub(move.prefix, "C:/Users/ioakk/Documents/projanager/test/", "test")
+    move.check(prefix, "C:/Users/ioakk/Documents/projanager/test", "test")
+    move.grub(prefix, "C:/Users/ioakk/Documents/projanager/test", "test")
 
 if __name__ == "__main__":
     main()
