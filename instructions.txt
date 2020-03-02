@@ -1,0 +1,4 @@
+prefix array
+path to workspace
+name of workspace
+folder of workspaces

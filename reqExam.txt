@@ -1,0 +1,7 @@
+    """query = [
+    ["C:/Users/ioakk/Documents/projanager/test", "test", "workspaces", "a", "add/sad"],
+    ["C:/Users/ioakk/Documents/projanager/test", "test", "workspaces", "n", "new"],
+    ["C:/Users/ioakk/Documents/projanager/test", "test", "workspaces", "b", "black/white/sa"]
+    ]
+    dbproc.show()
+"""
