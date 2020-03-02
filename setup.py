@@ -10,7 +10,7 @@ setup(
     name="projanager",
     version="0.1.0",
     description="Project manager",
-    license="MIT",
+    license="GPL",
     author="ioakk",
     packages=find_packages(),
     install_requires=[],
