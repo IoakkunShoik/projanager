@@ -2,7 +2,7 @@ import sqlite3
 def init():
     
     try:
-        sql = sqlite3.connect("./dbs/db.db")
+        sql = sqlite3.connect("../dbs/db.db")
         
 
         cursor = sql.cursor()
@@ -19,7 +19,7 @@ def init():
     #   prefvalue  - contains prefix                      "a"
     #   preffolder  - contains folder of prefix           "add/sad"
     #   checkingfolder - target folder                    "test"
-init()
+dbproc.init()
 def insert(query):
     sql = sqlite3.connect("./dbs/db.db")
     cursor = sql.cursor()

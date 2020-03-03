@@ -3,10 +3,11 @@ import shutil
 import os
 import getpass
 #loc
-import dbproc
+
 import move
 from gui import gui
 from view import *
+import dbproc
 
 prefix = {"n":"new", "a":"add/sad", "b":"black/white/sa"}
 def main():
