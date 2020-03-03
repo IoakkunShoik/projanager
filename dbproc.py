@@ -52,8 +52,11 @@ def makePrefix(workspace):
     cursor = sql.cursor()
     output = cursor.execute("SELECT * FROM sys WHERE wsname=?", [workspace]).fetchall()
     prefix= {}
-    for item in output:
-        prefix[item[4]]=item[5]
-        paths = [item[1], item[2], item[3]]
-    result = (prefix, paths)
+    try:
+        for item in output:
+            prefix[item[4]]=item[5]
+            paths = [item[1], item[2], item[3]]
+        result = (prefix, paths)
+    except:
+        result = ('', ["","",""])
     return result
